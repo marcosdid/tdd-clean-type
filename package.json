@@ -5,12 +5,16 @@
     "author": "Marcos Alves <limafilhoguerreiro@outlook.com>",
     "license": "MIT",
     "scripts": {
-        "build": "rimraf dist && tsc"
+        "build": "rimraf dist && tsc",
+        "start": "node dist/main/api"
     },
     "devDependencies": {
+        "@types/module-alias": "^2.0.1",
+        "@types/node": "^18.11.9",
         "typescript": "^4.9.3"
     },
     "dependencies": {
+        "module-alias": "^2.2.2",
         "rimraf": "^3.0.2"
     }
 }
