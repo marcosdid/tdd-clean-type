@@ -1,7 +1,16 @@
 {
-  "name": "tdd-clean-type",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Marcos Alves <limafilhoguerreiro@outlook.com>",
-  "license": "MIT"
+    "name": "tdd-clean-type",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Marcos Alves <limafilhoguerreiro@outlook.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "rimraf dist && tsc"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.3"
+    },
+    "dependencies": {
+        "rimraf": "^3.0.2"
+    }
 }
